@@ -1,6 +1,6 @@
 {
   "name": "fundbay-auxilium",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mini JavaScript helper library.",
   "main": "lib/auxilium.js",
   "typings": "lib/auxilium.d.ts",
