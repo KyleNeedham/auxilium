@@ -3,6 +3,8 @@
     "rootDir": "./",
     "outDir": "../lib",
     "module": "umd",
-    "target": "es5"
+    "target": "es5",
+    "declaration": true,
+    "removeComments": false
   }
 }

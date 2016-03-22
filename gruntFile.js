@@ -16,7 +16,8 @@ module.exports = (grunt) => {
         dest: 'lib',
         options: {
           module: "umd",
-          target: "es5"
+          target: "es5",
+          declaration: true
         }
       }
     },

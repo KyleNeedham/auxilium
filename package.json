@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Mini JavaScript helper library.",
   "main": "lib/auxilium.js",
+  "typings": "lib/auxilium.d.ts",
   "scripts": {
     "test": "grunt test"
   },
