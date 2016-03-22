@@ -38,7 +38,8 @@ module.exports = (grunt) => {
     uglify: {
       auxilium: {
         files: {
-          'lib/auxilium.js': 'lib/auxilium.js'
+          'lib/auxilium.js': 'lib/auxilium.js',
+          'spec/javascript/auxilium.spec.js': 'spec/javascript/auxilium.spec.js'
         }
       }
     }
