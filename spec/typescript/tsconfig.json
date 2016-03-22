@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "../javascript",
+    "module": "amd",
+    "target": "es5"
+  }
+}
