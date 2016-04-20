@@ -83,6 +83,10 @@ export namespace str {
       return str;
     }
   }
+
+  export function snakeToCamel(str: string) {
+    return str.split('_').map(capitalize).join('');
+  }
 }
 
 export namespace regex {

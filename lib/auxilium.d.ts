@@ -37,6 +37,7 @@ export declare namespace str {
      * Shorten a string to a certain length.
      */
     function shorten(str: string, length: number, append?: string): string;
+    function snakeToCamel(str: string): string;
 }
 export declare namespace regex {
     /** Matches a valid email according to W3C HTML5 spec */
