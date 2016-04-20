@@ -94,8 +94,11 @@ describe('String Helper', () => {
   it('should return blank when string is empty', () => {
     expect(str.shorten('hey you', 3, '...')).toEqual('hey...');
   });
-  it('should not append the "append" argument when string doesnt reach length criteria', () => {
+  it('should not append the "append" argument when string does\'nt reach length criteria', () => {
     expect(str.shorten('hey', 3, '...')).toEqual('hey');
+  });
+  it('should convert a snake case string to camel case', () => {
+    expect(str.snakeToCamel('snake_case')).toEqual('SnakeCase');
   });
 });
 
