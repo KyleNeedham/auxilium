@@ -1,6 +1,6 @@
 {
   "name": "fundbay-auxilium",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mini JavaScript helper library.",
   "main": "lib/auxilium.js",
   "typings": "lib/auxilium.d.ts",
@@ -27,8 +27,8 @@
     "grunt-contrib-jasmine": "^1.0.0",
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-template-jasmine-requirejs": "^0.2.3",
+    "grunt-ts": "^5.5.1",
     "grunt-tslint": "^3.0.3",
-    "grunt-typescript": "^0.8.0",
     "load-grunt-tasks": "^3.4.1",
     "tslint": "^3.6.0",
     "typescript": "^1.8.9"

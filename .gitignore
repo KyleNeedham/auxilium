@@ -1,2 +1,4 @@
-node_modules
-spec/typescript/typings
+node_modules/
+spec/typescript/typings/
+.tscache/
+*.baseDir.*

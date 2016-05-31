@@ -10,15 +10,14 @@ module.exports = (grunt) => {
         src: ['src/auxilium.ts', 'spec/typescript/auxilium.spec.ts']
       }
     },
-    typescript: {
+    ts: {
       auxilium: {
-        src: 'src/auxilium.ts',
-        dest: 'lib',
-        options: {
-          module: "umd",
-          target: "es5",
-          declaration: true
-        }
+        rootDir: "src",
+        outDir: "lib",
+        module: "umd",
+        target: "es5",
+        declaration: true,
+        removeComments: false
       }
     },
     jasmine: {
@@ -48,10 +47,10 @@ module.exports = (grunt) => {
 
   grunt.registerTask('default', [
     'tslint',
-    'typescript',
+    'ts',
     'uglify',
     'jasmine'
   ]);
-  grunt.registerTask('build', 'typescript');
+  grunt.registerTask('build', 'ts');
   grunt.registerTask('test', 'jasmine');
 };
