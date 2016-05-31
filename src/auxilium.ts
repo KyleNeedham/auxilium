@@ -108,4 +108,4 @@ export default {
   str,
   obj,
   regex
-}
+};
