@@ -1,6 +1,6 @@
 {
-  "name": "fundbay-auxilium",
-  "version": "0.2.1",
+  "name": "auxilium-helpers",
+  "version": "1.0.0",
   "description": "Mini JavaScript helper library.",
   "main": "lib/auxilium.js",
   "typings": "lib/auxilium.d.ts",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fundbay/auxilium.git"
+    "url": "git+github.com:KyleNeedham/auxilium.git"
   },
   "keywords": [
     "helper",
@@ -18,9 +18,9 @@
   "author": "Kyle Needham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fundbay/auxilium/issues"
+    "url": "https://github.com/KyleNeedham/auxilium/issues"
   },
-  "homepage": "https://github.com/fundbay/auxilium#readme",
+  "homepage": "https://github.com/KyleNeedham/auxilium/blob/master/README.md",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
